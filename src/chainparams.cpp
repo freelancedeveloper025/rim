@@ -109,7 +109,7 @@ public:
         nLastPOWBlock = 200;
         nMaturity = 20;
         nMasternodeCountDrift = 20;
-        nMasternodeCollateralLimit = 10000;
+        nMasternodeCollateralLimit = 50000;
         nModifierUpdateBlock = 615800;
         nMaxMoneyOut = 555000000 * COIN;
 
