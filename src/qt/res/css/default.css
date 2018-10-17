@@ -1848,11 +1848,11 @@ border-image: url(':/images/downArrow') 0 0 0 0 stretch stretch;
 }
 
 QComboBox QListView {
-background:#000;
+background:#fff;
 border:1px solid #333;
 padding-right:1px;
 padding-left:1px;
-color:#818181;
+color:#000;
 }
 
 QComboBox QAbstractItemView::item {
@@ -1860,7 +1860,7 @@ margin:4px;
 }
 
 QComboBox::item {
-color:#818181;
+color:#000;
 }
 
 QComboBox::item:alternate {
@@ -1869,7 +1869,8 @@ background:#000;
 
 QComboBox::item:selected {
 border:0px solid transparent;
-background:#f2f2f2;
+background:#000;
+color: #fff;
 }
 
 QComboBox::indicator {
